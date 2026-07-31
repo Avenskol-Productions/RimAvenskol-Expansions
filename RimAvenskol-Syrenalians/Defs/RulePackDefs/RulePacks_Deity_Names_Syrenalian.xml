@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>GodContent_Syrenalian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[firstName] [lastName]</li>
+                <!--First Name-->
+                <li>firstName->[firstNamePrefix][firstNameSuffix]</li>
+                <!--Dark-->
+                <li>firstNamePrefix->Eivi</li>
+                <li>firstNamePrefix->Ixyr</li>
+                <li>firstNamePrefix->Vana</li>
+                <li>firstNamePrefix->Veit</li>
+                <li>firstNamePrefix->Vevin</li>
+                <li>firstNamePrefix->Vel</li>
+                <li>firstNameSuffix->ozal</li>
+                <li>firstNameSuffix->tiel</li>
+                <li>firstNameSuffix->rix</li>
+                <li>firstNameSuffix->astra</li>
+                <li>firstNameSuffix->egor</li>
+                <!--Light-->
+                <li>firstNamePrefix->Savi</li>
+                <li>firstNamePrefix->Xela</li>
+                <li>firstNameSuffix->stalus</li>
+                <li>firstNameSuffix->stato</li>
+                <li>firstNameSuffix->styr</li>
+                <!--Fire-->
+                <li>firstNamePrefix->Aeri</li>
+                <li>firstNamePrefix->Alva</li>
+                <li>firstNamePrefix->Eathyr</li>
+                <li>firstNamePrefix->Fie</li>
+                <li>firstNamePrefix->Ka</li>
+                <li>firstNamePrefix->Kata</li>
+                <li>firstNamePrefix->Shavik</li>
+                <li>firstNamePrefix->Tal</li>
+                <li>firstNamePrefix->Vari</li>
+                <li>firstNameSuffix->skala</li>
+                <li>firstNameSuffix->neia</li>
+                <li>firstNameSuffix->atis</li>
+                <li>firstNameSuffix->ra</li>
+                <li>firstNameSuffix->ta</li>
+                <li>firstNameSuffix->fiera</li>
+                <li>firstNameSuffix->samnia</li>
+                <!--Last Name-->
+                <li>lastName->[lastNamePrefix][lastNameSuffix]</li>
+                <li>lastNamePrefix->Eivi</li>
+                <li>lastNamePrefix->Ixyr</li>
+                <li>lastNamePrefix->Vana</li>
+                <li>lastNamePrefix->Veit</li>
+                <li>lastNamePrefix->Vevin</li>
+                <li>lastNamePrefix->Vel</li>
+                <li>lastNameSuffix->ozal</li>
+                <li>lastNameSuffix->tiel</li>
+                <li>lastNameSuffix->rix</li>
+                <li>lastNameSuffix->astra</li>
+                <li>lastNameSuffix->egor</li>
+                <!--Light-->
+                <li>lastNamePrefix->Savi</li>
+                <li>lastNamePrefix->Xela</li>
+                <li>lastNameSuffix->stalus</li>
+                <li>lastNameSuffix->stato</li>
+                <li>lastNameSuffix->styr</li>
+                <!--Fire-->
+                <li>lastNamePrefix->Aeri</li>
+                <li>lastNamePrefix->Alva</li>
+                <li>lastNamePrefix->Eathyr</li>
+                <li>lastNamePrefix->Fie</li>
+                <li>lastNamePrefix->Ka</li>
+                <li>lastNamePrefix->Kata</li>
+                <li>lastNamePrefix->Shavik</li>
+                <li>lastNamePrefix->Tal</li>
+                <li>lastNamePrefix->Vari</li>
+                <li>lastNameSuffix->skala</li>
+                <li>lastNameSuffix->neia</li>
+                <li>lastNameSuffix->atis</li>
+                <li>lastNameSuffix->ra</li>
+                <li>lastNameSuffix->ta</li>
+                <li>lastNameSuffix->fiera</li>
+                <li>lastNameSuffix->samnia</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerDeitySyrenalian</defName>
+    <include>
+      <li>NamerDeityGlobal</li>
+      <li>GodContent_Syrenalian</li>
+    </include>
+  </RulePackDef>
+
+</Defs>

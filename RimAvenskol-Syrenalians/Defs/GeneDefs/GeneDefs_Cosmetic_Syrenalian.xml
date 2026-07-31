@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef ParentName="GeneHairStyleBase">
+    <defName>Hair_Syrenalian</defName>
+    <label>pony-tailed</label>
+    <labelShortAdj>pony</labelShortAdj>
+    <description>Carriers of this gene can only grow short hair.</description>
+    <iconPath>UI/Icons/Genes/Gene_HairStyleShortOnly</iconPath>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>Urban</li>
+      </tags>
+    </hairTagFilter>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>pony-tailed</symbol></li>
+        <li><symbol>ponytail</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>pony</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef Name="Syrnl_Organ" Abstract="True">
+    <displayCategory>Healing</displayCategory>
+    <exclusionTags>
+      <li>WoundHealingRate</li>
+      <li>Immunity</li>
+      <li>ToxicEnvironmentResistance</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="Syrnl_Organ">
+    <defName>Organ_Invelize_Syrnl</defName>
+    <label>invelize organ</label>
+    <labelShortAdj>invelizing</labelShortAdj>
+    <description>Carriers of this gene heal from wounds 75% slower than normal, but are however 75% more resistant to disease. They are also immune to toxins.</description>
+    <iconPath>UI/Icons/Genes/Gene_SuperStrongImmunity</iconPath>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+    <statFactors>
+      <InjuryHealingFactor>0.25</InjuryHealingFactor>
+      <ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+    </statFactors>
+    <statOffsets>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+    </statOffsets>
+    <biostatMet>-1</biostatMet>
+    <biostatCpx>4</biostatCpx>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>invelized</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

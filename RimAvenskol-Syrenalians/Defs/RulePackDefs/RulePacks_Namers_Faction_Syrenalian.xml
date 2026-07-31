@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RulePackDef>
+        <defName>NamerFactionSyrenalian</defName>
+        <rulePack>
+            <include>
+                <li>NamerLastNamesSyrenalian</li>
+            </include>
+            <rulesStrings>
+                <li>r_name->The Axilarium</li>
+                <li>r_name->The High Council</li>
+                <li>r_name->The Unitarium</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>NamerSettlementSyrenalian</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->Hegemon of [lastName]</li>
+                <li>lastName->[lastNamePrefix][lastNameSuffix]</li>
+                <li>lastNamePrefix->Eivi</li>
+                <li>lastNamePrefix->Ixyr</li>
+                <li>lastNamePrefix->Vana</li>
+                <li>lastNamePrefix->Veit</li>
+                <li>lastNamePrefix->Vevin</li>
+                <li>lastNamePrefix->Vel</li>
+                <li>lastNameSuffix->ozal</li>
+                <li>lastNameSuffix->tiel</li>
+                <li>lastNameSuffix->rix</li>
+                <li>lastNameSuffix->astra</li>
+                <li>lastNameSuffix->egor</li>
+                <!--Light-->
+                <li>lastNamePrefix->Savi</li>
+                <li>lastNamePrefix->Xela</li>
+                <li>lastNameSuffix->stalus</li>
+                <li>lastNameSuffix->stato</li>
+                <li>lastNameSuffix->styr</li>
+                <!--Fire-->
+                <li>lastNamePrefix->Aeri</li>
+                <li>lastNamePrefix->Alva</li>
+                <li>lastNamePrefix->Eathyr</li>
+                <li>lastNamePrefix->Fie</li>
+                <li>lastNamePrefix->Ka</li>
+                <li>lastNamePrefix->Kata</li>
+                <li>lastNamePrefix->Shavik</li>
+                <li>lastNamePrefix->Tal</li>
+                <li>lastNamePrefix->Vari</li>
+                <li>lastNameSuffix->skala</li>
+                <li>lastNameSuffix->neia</li>
+                <li>lastNameSuffix->atis</li>
+                <li>lastNameSuffix->ra</li>
+                <li>lastNameSuffix->ta</li>
+                <li>lastNameSuffix->fiera</li>
+                <li>lastNameSuffix->samnia</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>
