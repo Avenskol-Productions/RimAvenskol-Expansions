@@ -16,9 +16,15 @@
     <factionNameMaker>NamerFactionSyrenalian</factionNameMaker>
     <settlementNameMaker>NamerSettlementSyrenalian</settlementNameMaker>
     <allowedCultures><li>Syrenalian</li></allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+    </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">RTC_Anarchism</li>
     </disallowedMemes>
     <structureMemeWeights>
       <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">4</Structure_TheistEmbodied>
