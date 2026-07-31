@@ -8,9 +8,25 @@
                 <li>NamerLastNamesSyrenalian</li>
             </include>
             <rulesStrings>
-                <li>r_name->The Axilarium</li>
-                <li>r_name->The High Council</li>
-                <li>r_name->The Unitarium</li>
+                <li>r_name->The Axilarium of [canonOrigin]</li>
+                <li>r_name->The Axilarium of [randOriginPrefix][randOriginSuffix]</li>
+                <li>r_name->The High Council of [canonOrigin]</li>
+                <li>r_name->The High Council of [randOriginPrefix][randOriginSuffix]</li>
+                <li>r_name->The Unitarium of [canonOrigin]</li>
+                <li>r_name->The Unitarium of [randOriginPrefix][randOriginSuffix]</li>
+                <!--Canon-->
+                <li>canonOrigin->Eilasalia</li>
+                <li>canonOrigin->Einfiera</li>
+                <li>canonOrigin->Octusaria</li>
+                <li>canonOrigin->Syrenalia</li>
+                <!--Random-->
+                <li>randOriginPrefix->Eilas</li>
+                <li>randOriginPrefix->Einf</li>
+                <li>randOriginPrefix->Octus</li>
+                <li>randOriginPrefix->Syren</li>
+                <li>randOriginSuffix->alia</li>
+                <li>randOriginSuffix->iera</li>
+                <li>randOriginSuffix->aria</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
@@ -19,8 +35,10 @@
         <defName>NamerSettlementSyrenalian</defName>
         <rulePack>
             <rulesStrings>
-                <li>r_name->Hegemon of [lastName]</li>
+                <li>r_name->The Hegemon of [lastName]</li>
+                <li>r_name->The Hegemon of [element]</li>
                 <li>lastName->[lastNamePrefix][lastNameSuffix]</li>
+                <!--Dark-->
                 <li>lastNamePrefix->Eivi</li>
                 <li>lastNamePrefix->Ixyr</li>
                 <li>lastNamePrefix->Vana</li>
@@ -32,12 +50,16 @@
                 <li>lastNameSuffix->rix</li>
                 <li>lastNameSuffix->astra</li>
                 <li>lastNameSuffix->egor</li>
+                <li>element->Darkness</li>
+                <li>element->Shadows</li>
                 <!--Light-->
                 <li>lastNamePrefix->Savi</li>
                 <li>lastNamePrefix->Xela</li>
                 <li>lastNameSuffix->stalus</li>
                 <li>lastNameSuffix->stato</li>
                 <li>lastNameSuffix->styr</li>
+                <li>element->Light</li>
+                <li>element->Stars</li>
                 <!--Fire-->
                 <li>lastNamePrefix->Aeri</li>
                 <li>lastNamePrefix->Alva</li>
@@ -55,6 +77,8 @@
                 <li>lastNameSuffix->ta</li>
                 <li>lastNameSuffix->fiera</li>
                 <li>lastNameSuffix->samnia</li>
+                <li>element->Fire</li>
+                <li>element->Suns</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
