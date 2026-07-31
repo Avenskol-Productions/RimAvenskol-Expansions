@@ -39,9 +39,27 @@
     <backstoryFilters>
       <li>
         <categories>
-          <li>Offworld</li>
+          <li MayRequire="AvenskolProductions.RimTales.Core">RTC_Worker</li>
         </categories>
         <commonality>1.0</commonality>
+      </li>
+      <li>
+        <categories>
+          <li MayRequire="AvenskolProductions.RimTales.Core">RTC_Military</li>
+        </categories>
+        <commonality>0.75</commonality>
+      </li>
+      <li>
+        <categories>
+          <li MayRequire="AvenskolProductions.RimTales.Core">RTC_Specialist</li>
+        </categories>
+        <commonality>0.5</commonality>
+      </li>
+      <li>
+        <categories>
+          <li MayRequire="AvenskolProductions.RimTales.Core">RTC_Council</li>
+        </categories>
+        <commonality>0.25</commonality>
       </li>
     </backstoryFilters>
     <caravanTraderKinds>
