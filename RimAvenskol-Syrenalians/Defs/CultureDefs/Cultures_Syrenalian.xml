@@ -5,6 +5,7 @@
     <defName>Syrenalian</defName>
     <label>syrenalian</label>
     <description>A united culture common originating from the Syrenalian moons.</description>
+    <pawnNameMaker>NamerPersonSyrenalian</pawnNameMaker>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
     <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeitySyrenalian</deityNameMaker>
     <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>

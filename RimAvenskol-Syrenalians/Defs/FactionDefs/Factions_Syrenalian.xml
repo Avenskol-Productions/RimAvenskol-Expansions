@@ -4,17 +4,29 @@
   <FactionDef ParentName="FactionBase" Name="SyrenalianFactionBase" Abstract="True">
     <pawnSingular>syrenal</pawnSingular>
     <pawnsPlural>syrenalians</pawnsPlural>
-    <categoryTag>Outlander</categoryTag>
+    <categoryTag>Empire</categoryTag>
     <listOrderPriority>100</listOrderPriority>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>high monarch</leaderTitle>
+    <royalFavorLabel>loyalty</royalFavorLabel>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <royalFavorIconPath>UI/Icons/RoyalFavor</royalFavorIconPath>
     <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Ultra</techLevel>
     <factionNameMaker>NamerFactionSyrenalian</factionNameMaker>
     <settlementNameMaker>NamerSettlementSyrenalian</settlementNameMaker>
+    <permanentEnemyToEveryoneExcept>
+      <li>PlayerTribe</li>
+      <li>PlayerColony</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Beggars</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">ResearchExpedition</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">GravshipCrew</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">TradersGuild</li>
+      <li MayRequire="APHP.TQAR">PlayerDenDrekir</li>
+    </permanentEnemyToEveryoneExcept>
     <allowedCultures><li>Syrenalian</li></allowedCultures>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
@@ -62,20 +74,49 @@
         <commonality>0.25</commonality>
       </li>
     </backstoryFilters>
+    <apparelStuffFilter>
+      <stuffCategoriesToAllow>
+        <li>Metallic</li>
+        <li>Fabric</li>
+      </stuffCategoriesToAllow>
+      <disallowedThingDefs>
+        <li>DevilstrandCloth</li>
+      </disallowedThingDefs>
+    </apparelStuffFilter>
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
       <li>Caravan_Outlander_CombatSupplier</li>
       <li>Caravan_Outlander_Exotic</li>
       <li>Caravan_Outlander_PirateMerchant</li>
+      <li>Empire_Caravan_TraderGeneral</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
+    <fixedLeaderKinds>
+      <li>Syrnl_High_Monarch</li>
+    </fixedLeaderKinds>
+    <royalTitleTags>
+      <li>SyrenalianHCOccupation</li>
+    </royalTitleTags>
     <baseTraderKinds>
-      <li>Base_Outlander_Standard</li>
+      <li>Base_Empire_Standard</li>
     </baseTraderKinds>
+    <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+    <royalTitleInheritanceRelations>
+      <li>Child</li>
+      <li>Grandchild</li>
+      <li>GreatGrandchild</li>
+      <li>NephewOrNiece</li>
+      <li>Spouse</li>
+      <li>Sibling</li>
+      <li>HalfSibling</li>
+      <li>Cousin</li>
+      <li>Parent</li>
+      <li>UncleOrAunt</li>
+    </royalTitleInheritanceRelations>
     <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
-    <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+    <raidLootMaker>EmpireRaidLootMaker</raidLootMaker>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
