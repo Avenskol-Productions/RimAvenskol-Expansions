@@ -21,7 +21,6 @@
     <permanentEnemyToEveryoneExcept>
       <li>PlayerTribe</li>
       <li>PlayerColony</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Beggars</li>
       <li MayRequire="Ludeon.RimWorld.Anomaly">ResearchExpedition</li>
       <li MayRequire="Ludeon.RimWorld.Odyssey">GravshipCrew</li>
       <li MayRequire="Ludeon.RimWorld.Odyssey">TradersGuild</li>
@@ -29,8 +28,8 @@
     </permanentEnemyToEveryoneExcept>
     <allowedCultures><li>Syrenalian</li></allowedCultures>
     <requiredMemes>
+      <li MayRequire="AvenskolProductions.RimTales.Core">RTC_AncientPrimacy</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
       <li MayRequire="AvenskolProductions.RimTales.Core">RTC_Statism</li>
     </requiredMemes>
     <disallowedMemes>
