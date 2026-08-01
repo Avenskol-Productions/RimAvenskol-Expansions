@@ -35,6 +35,7 @@
 	<li>
 		<packageId>AvenskolProductions.RimTales.Core</packageId>
 		<displayName>RimTales Core</displayName>
+		<downloadUrl>https://github.com/Avenskol-Productions/RimTales-Core</downloadUrl>
 	</li>
   </modDependencies>
 </ModMetaData>
