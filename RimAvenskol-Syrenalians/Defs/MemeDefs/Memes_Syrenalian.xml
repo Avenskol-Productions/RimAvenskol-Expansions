@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MemeDef>
+    <defName>Syrenalian_Meme</defName>
+    <label>Syrenalian</label>
+    <description>May the syrenals thrive.</description>
+    <iconPath>UI/Memes/Collectivist</iconPath>
+    <allowDuringTutorial>true</allowDuringTutorial>
+    <groupDef>Individualism</groupDef>
+    <impact>1</impact>
+    <exclusionTags>
+      <li>Faction</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->syrenalic</li>
+        <li>memeConcept->syrenalism</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_Syrenalian)        ->[deity0_name] fashioned a council of [memeConcept]. Each one is a unique and powerful by [deity0_possessive] divine hand.</li>
+          <li>episode(uses=1,tag=meme_Syrenalian)  ->[deity0_name] said to all, "Each and every council is a unique and holy being formed in my image."</li>
+          <!-- theist founder -->
+          <li>intro(tag=meme_Syrenalian)           ->[deity0_name] spoke to [memberNamePlural] [revelationAdverb], guiding them to travel to the [place_summary] [place_name] where it's council's history would shine.</li>
+          <li>conflict(tag=meme_Syrenalian)        ->The [foeLeader] forced the [memberNamePlural] to disrupt the [memeAdjective] council.</li>
+          <li>founderJoin(tag=meme_Syrenalian)     ->A [place_job] named [founderName] and her council was blessed by [deity0_name] and gained miraculous knowledge of the unique wisdom of [memeConcept]. [founder_pronoun] said to each one what they needed to spread their newfound freedom.</li>
+          <li>victory(tag=meme_Syrenalian)         ->The [memberNamePlural] gathered in a secret conference with many of the [foeSoldiers]. They all learned to see the value in the council.</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_Syrenalian)           ->Once living in a system of disrepair, [founderName] created a council that brought [memeConcept] to the land.</li>
+          <li>story(uses=1,tag=meme_Syrenalian)    ->[founderName] expressed knowledge and reinforced wisdom.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_Syrenalian)         ->[place_job] [founderName] raised a [animal] to [foeLeader], gifting a blessing in disguise.</li>
+          <li>lesson(tag=meme_Syrenalian)              ->the council will bring wisdom to the world or the [foeSoldiers] will damn this world to oblivion</li>
+          <li>lessonReinforcement(tag=meme_Syrenalian) ->If I die knowing the council will fall, then I would have lived for nothing.</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_Syrenalian)    ->Archotechs stand as beacons of wisdom, and recognize and judge our council the same way.</li>
+          <li>archistFact(tag=meme_Syrenalian)     ->At death, the archotechs examine the unique wisdom of the council.</li>
+          <li>archistFact(tag=meme_Syrenalian)     ->Archotechs notice the relics of the council, such as the [relic1_name].</li>
+          <li>archistProphecy(tag=meme_Syrenalian) ->[inTheEnd], the archotechs will depart. They will bring with them the councils they have noticed, and leave the rest behind to live with newfound knowledge.</li>
+          <!-- animist -->
+          <li>animistBasis(tag=meme_Syrenalian)    ->Before everything, there was a pantheon of spirits, each wise. These came together in conference to create the world.</li>
+          <li>animistFact(tag=meme_Syrenalian)     ->Every spirit lends its unique nature to our world, and they expect our council to do the same.</li>
+          <!--Vanilla Expanded Ideology Memes-->
+          <!-- serketist -->
+          <li>serketistProphecy(tag=meme_Syrenalian)->[itIsSaid] we will learn from them, and use that knowledge to embrace the universe.</li>
+					<!-- eldritch / chthonian -->
+					<li>chthonianProphecy(tag=meme_Syrenalian)->We will acquire their eldritch knowledge, and use it to embrace the universe.</li>
+					<!-- esoteric -->
+					<li>esotericismProphecy(tag=meme_Syrenalian)->With such knowledge, we will have a clear advantage over the rest of this planet's inhabitants, and use it to embrace it.</li>
+					<!-- eschatologism -->
+					<li>eschatologismFact(tag=meme_Syrenalian)->There will be nothing left. But together we will rebuild our council from the ground up.</li>
+					<!-- corporate -->
+					<li>introMemo(tag=meme_Syrenalian)->As you know, the mission of our Company is way too important to let others get in our way, so we are preparing to bring words to the council.</li>
+					<!-- alienist -->
+					<li>alienistProphecy(tag=meme_Syrenalian)->We need to spread by force the reality of our council, seeded by humanity through all the Rim.</li>
+          <!-- misc -->
+          <li>bloodDrinkingAnimal->dark syrenal</li>
+          <li>bloodDrinkingAnimal->dark syrenalian</li>
+          <li>bloodDrinkingAnimal->octusarian</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Councilism</ideoName>
+        <theme>councilism</theme>
+        <adjective>councilist</adjective>
+        <member>councilor</member>
+      </li>
+      <li>
+        <ideoName>Syrenalianism</ideoName>
+        <theme>syrenalianism</theme>
+        <adjective>syrenalianist</adjective>
+        <member>syrenalian</member>
+      </li>
+    </symbolPacks>
+    <styleItemTags>
+      <li>
+        <tag>Wild</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1.1</weightFactor>
+      </li>
+    </styleItemTags>
+		<thingStyleCategories>
+			<li>
+				<category>Syrenalian_Style</category>
+				<priority>4</priority>
+			</li>
+		</thingStyleCategories>
+  </MemeDef>
+
+</Defs>

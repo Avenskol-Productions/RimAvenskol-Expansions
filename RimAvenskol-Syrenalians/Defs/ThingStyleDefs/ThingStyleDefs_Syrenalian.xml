@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingStyleDef ParentName="RTC_RotateWeapons">
+		<defName>Syrenalian_AssaultRifle</defName>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Style/Syrenalian/AssaultRifle_Syrenalian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="RTC_RotateWeapons">
+		<defName>Syrenalian_BoltActionRifle</defName>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Style/Syrenalian/BoltActionRifle_Syrenalian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="RTC_RotateWeapons">
+		<defName>Syrenalian_SniperRifle</defName>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Style/Syrenalian/SniperRifle_Syrenalian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+</Defs>

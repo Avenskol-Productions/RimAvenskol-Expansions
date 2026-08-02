@@ -29,8 +29,8 @@
     <allowedCultures><li>Syrenalian</li></allowedCultures>
     <requiredMemes>
       <li MayRequire="AvenskolProductions.RimTales.Core">RTC_AncientPrimacy</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="AvenskolProductions.RimTales.Core">RTC_Statism</li>
+      <li>Syrenalian_Meme</li>
     </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
