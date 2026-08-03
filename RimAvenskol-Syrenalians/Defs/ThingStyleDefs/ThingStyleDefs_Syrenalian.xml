@@ -18,6 +18,38 @@
 	</ThingStyleDef>
 
 	<ThingStyleDef ParentName="RTC_RotateWeapons">
+		<defName>Syrenalian_ChainShotgun</defName>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Style/Syrenalian/ChainShotgun_Syrenalian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="RTC_RotateWeapons">
+		<defName>Syrenalian_HeavySMG</defName>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Style/Syrenalian/HeavySMG_Syrenalian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="RTC_RotateWeapons">
+		<defName>Syrenalian_LMG</defName>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Style/Syrenalian/LMG_Syrenalian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="RTC_RotateWeapons">
+		<defName>Syrenalian_PumpShotgun</defName>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Style/Syrenalian/PumpShotgun_Syrenalian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="RTC_RotateWeapons">
 		<defName>Syrenalian_SniperRifle</defName>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/Style/Syrenalian/SniperRifle_Syrenalian</texPath>
