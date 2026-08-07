@@ -42,11 +42,6 @@
       <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistAbstract>
       <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
     </structureMemeWeights>
-    <xenotypeSet>
-      <xenotypeChances>
-        <Syrenalian MayRequire="Ludeon.RimWorld.Biotech">1.0</Syrenalian>
-      </xenotypeChances>
-    </xenotypeSet>
     <backstoryFilters>
       <li>
         <categories>
