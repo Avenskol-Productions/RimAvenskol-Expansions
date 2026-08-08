@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="Human">
+        <defName>SyrenalRace</defName>
+        <label>syrenalian</label>
+        <description>A tall and proud monotreme, originating from the 3 syrenalian moons.</description>
+        <alienRace>
+            <graphicPaths>
+                <body>
+					<path>Things/Pawn/Humanlike/Bodies/Naked_Female</path>
+				</body>
+				<head>
+					<path>Things/Pawn/Humanlike/Heads/Female/Female_Average_Normal</path>
+				</head>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+                    <headTypes Inherit="False">
+                        <li>Female_AverageNormal</li>
+                        <li>Male_AverageNormal</li>
+                    </headTypes>
+                    <bodyTypes Inherit="False">
+                        <li>Female</li>
+                        <li>Male</li>
+                    </bodyTypes>
+					<colorChannels>
+	                    <li>
+					    	<name>skin</name>
+						    <first Class="ColorGenerator_Options">	
+    							<options>
+		    						<li>
+										<weight>8</weight>
+										<only>RGBA(0.2,0.4,0.8,1.0)</only>
+									</li>
+			    					<li>
+					    				<weight>8</weight>
+					    				<only>RGBA(0.4,0.8,0.2,1.0)</only>
+									</li>
+		    						<li>
+			    						<weight>8</weight>
+					    				<only>RGBA(0.8,0.4,0.2,1.0)</only>
+									</li>
+    							</options>
+							</first>
+						</li>
+					</colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+            <thoughtSettings></thoughtSettings>
+            <relationSettings></relationSettings>
+            <raceRestriction></raceRestriction>
+            <compatibility></compatibility>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTags>
+							<li>alienNoStyle</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTags>
+							<li>alienNoStyle</li>
+						</styleTags>
+					</value>
+				</li>
+			</styleSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

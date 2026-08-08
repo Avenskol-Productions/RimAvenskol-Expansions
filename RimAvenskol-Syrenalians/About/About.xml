@@ -15,27 +15,22 @@
 	<li>Ludeon.RimWorld.Odyssey</li>
 	<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	<li>AvenskolProductions.RimTales.Core</li>
+	<li>erdelf.HumanoidAlienRaces</li>
   </forceLoadAfter>
   <modDependencies>
-	<li>
-		<packageId>ludeon.rimworld.royalty</packageId>
-		<displayName>Royalty Expansion</displayName>
-		<steamWorkshopUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</steamWorkshopUrl>
-	</li>
-	<li>
-		<packageId>ludeon.rimworld.ideology</packageId>
-		<displayName>Ideology Expansion</displayName>
-		<steamWorkshopUrl>https://store.steampowered.com/app/1392840/RimWorld__Ideology/</steamWorkshopUrl>
-	</li>
-	<li>
-		<packageId>ludeon.rimworld.biotech</packageId>
-		<displayName>Biotech Expansion</displayName>
-		<steamWorkshopUrl>https://store.steampowered.com/app/1392840/RimWorld__Biotech/</steamWorkshopUrl>
-	</li>
 	<li>
 		<packageId>AvenskolProductions.RimTales.Core</packageId>
 		<displayName>RimTales Core</displayName>
 		<downloadUrl>https://github.com/Avenskol-Productions/RimTales-Core</downloadUrl>
 	</li>
+    <li>
+        <packageId>erdelf.HumanoidAlienRaces</packageId>
+        <displayName>Humanoid Alien Races 2.0</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+		<downloadUrl>https://github.com/erdelf/AlienRaces</downloadUrl>
+        <alternativePackageIds>
+            <li>erdelf.HumanoidAlienRaces.dev</li>
+        </alternativePackageIds>
+    </li>
   </modDependencies>
 </ModMetaData>
